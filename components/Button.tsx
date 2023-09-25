@@ -4,7 +4,11 @@ interface ButtonProps {
   handleClick?: () => void;
 }
 
-const Button = ({ text, type = 'primary', handleClick = () => {} }: ButtonProps) => {
+const Button = ({
+  text,
+  type = 'primary',
+  handleClick = () => {},
+}: ButtonProps) => {
   return (
     <button
       onClick={handleClick}
