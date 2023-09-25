@@ -16,10 +16,10 @@ const PlaylistCard = ({ title, description, image }: PlaylistCardProps) => {
         height={160}
         width={160}
       />
-      <span className='font-semibold text-white text-lg'>{title}</span>
+      <span className='font-semibold text-white text-md'>{title}</span>
       <span className='text-mid-gray'>{description}</span>
     </div>
   );
-}
+};
 
 export { PlaylistCard };
