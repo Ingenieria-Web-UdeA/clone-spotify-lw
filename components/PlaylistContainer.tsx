@@ -11,6 +11,7 @@ interface PlaylistContainerProps {
 }
 
 const PlaylistContainer = ({ name, data }: PlaylistContainerProps) => {
+  console.log('esto es un error');
   return (
     <section className='flex flex-col gap-5'>
       <div className='flex justify-between'>
